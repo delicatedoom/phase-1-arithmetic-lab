@@ -17,8 +17,8 @@ describe('index.js', function() {
   });
   describe('mod', function() {
     it("is an equation that calculates a remainder that is equal to 4", function() {
-      expect(num3).to.be.a('number')
-      expect(num4).to.be.a('number')
+      expect(num3).to.be.a('29')
+      expect(num4).to.be.a('5')
       expect(mod).to.eq(4)
     });
   });
